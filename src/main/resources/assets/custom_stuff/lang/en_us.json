@@ -1,0 +1,22 @@
+{
+  "item.custom_stuff.ruby": "Ruby",
+  "item.custom_stuff.raw_ruby": "Raw Ruby",
+  "item.custom_stuff.metal_detector": "Metal Detector",
+
+  "item.custom_stuff.ruby_pickaxe": "Ruby Pickaxe",
+  "item.custom_stuff.ruby_axe": "Ruby Axe",
+  "item.custom_stuff.ruby_shovel": "Ruby Shovel",
+  "item.custom_stuff.ruby_sword": "Ruby Sword",
+  "item.custom_stuff.ruby_hoe": "Ruby Hoe",
+
+  "block.custom_stuff.ruby_block": "Block of Ruby",
+  "block.custom_stuff.customizer_block": "Customizer",
+  "block.custom_stuff.sound_block": "Sound Block",
+
+  "block.custom_stuff.ruby_ore": "Ruby Ore",
+  "block.custom_stuff.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.custom_stuff.nether_ruby_ore": "Nether Ruby Ore",
+  "block.custom_stuff.end_ruby_ore": "End Ruby Ore",
+
+  "itemgroup.ruby": "Ruby Items"
+}

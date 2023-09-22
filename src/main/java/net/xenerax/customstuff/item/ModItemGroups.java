@@ -30,6 +30,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_RUBY_ORE);
 
 
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
+
+
                     }).build());
 
 
