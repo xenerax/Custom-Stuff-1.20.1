@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "custom-stuff",
+	"version": "${version}",
+	"name": "Custom stuff",
+	"description": "This is a mod that adds some custom items i or my friends want to use.",
+	"authors": [
+		"xenerax"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/custom-stuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.xenerax.customstuff.CustomStuff"
+		],
+		"client": [
+			"net.xenerax.customstuff.CustomStuffClient"
+		],
+		"fabric-datagen": [
+			"net.xenerax.customstuff.CustomStuffModDataGenerator"
+		]
+	},
+	"mixins": [
+		"custom-stuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
