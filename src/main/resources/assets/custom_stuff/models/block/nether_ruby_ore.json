@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "custom_stuff:block/nether_ruby_ore"
+  }
+}

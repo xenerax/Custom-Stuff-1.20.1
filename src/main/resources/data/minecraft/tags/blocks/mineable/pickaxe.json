@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "custom_stuff:ruby_block",
+    "custom_stuff:customizer_block",
+    "custom_stuff:ruby_ore",
+    "custom_stuff:end_ruby_ore",
+    "custom_stuff:nether_ruby_ore",
+    "custom_stuff:deepslate_ruby_ore"
+
+  ]
+}

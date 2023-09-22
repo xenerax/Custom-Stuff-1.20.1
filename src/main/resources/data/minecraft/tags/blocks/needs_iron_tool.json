@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "custom_stuff:ruby_block",
+    "custom_stuff:customizer_block"
+
+  ]
+}

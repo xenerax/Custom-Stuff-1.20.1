@@ -2,6 +2,10 @@ package net.xenerax.customstuff;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.xenerax.customstuff.block.ModBlocks;
+import net.xenerax.customstuff.item.ModItemGroups;
+import net.xenerax.customstuff.item.ModItems;
+import net.xenerax.customstuff.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +15,9 @@ public class CustomStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
